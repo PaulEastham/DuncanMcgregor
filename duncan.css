@@ -77,16 +77,3 @@ h2 {
     }
 }
 
-.legend-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem; /* space between items */
-    margin-bottom: 1rem;
-}
-
-.side-img {
-    width: 60px;   /* adjust size */
-    height: 60px;
-    object-fit: contain;
-}
