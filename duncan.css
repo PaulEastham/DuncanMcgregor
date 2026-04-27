@@ -77,31 +77,16 @@ h2 {
     }
 }
 
-.legend-banner {
-    position: relative;
-    display: inline-block;
-    padding: 1rem 2rem;
+.legend-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* space between items */
+    margin-bottom: 1rem;
 }
 
-.legend-banner::before,
-.legend-banner::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 60px;
+.side-img {
+    width: 60px;   /* adjust size */
     height: 60px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.4; /* soft fade */
-    transform: translateY(-50%);
-}
-
-.legend-banner::before {
-    left: -70px;
-    background-image: url('memories/Images/thistle.png');
-}
-
-.legend-banner::after {
-    right: -70px;
-    background-image: url('memories/Images/thistle.png');
+    object-fit: contain;
 }
