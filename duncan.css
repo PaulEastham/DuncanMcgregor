@@ -98,10 +98,10 @@ h2 {
 
 .legend-banner::before {
     left: -70px;
-    background-image: url('images/thistle.png');
+    background-image: url('memories/Images/thistle.png');
 }
 
 .legend-banner::after {
     right: -70px;
-    background-image: url('images/thistle.png');
+    background-image: url('memories/Images/thistle.png');
 }
