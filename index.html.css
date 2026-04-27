@@ -1,0 +1,58 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: #FF0000;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+h1 {
+    margin-bottom: 0.2rem;
+}
+
+h2 {
+    margin-bottom: 0.2rem;
+    font-style: italic;
+}
+
+.dates {
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+}
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.message {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #FFFFFF;
+    padding: 2rem 1rem;
+}
