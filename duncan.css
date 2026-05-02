@@ -19,17 +19,28 @@ body::before {
     z-index: -1;
     opacity: 0.25;
 
-    background-image: 
+    background-image:
         url("memories/Images/thistle.png"),
         url("memories/Images/thistle.png");
 
     background-repeat: no-repeat, no-repeat;
 
-    background-size: 25%, 25%;
+    
+    background-size: 12%, 12%;
 
+    
     background-position:
-        left center,
-        right center;
+        left 80px,
+        right 80px;
+}
+
+@media (max-width: 600px) {
+    body::before {
+        background-size: 18%, 18%;
+        background-position:
+            left 40px,
+            right 40px;
+    }
 }
 
 
