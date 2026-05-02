@@ -11,17 +11,25 @@ body {
 
 body::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 80%;
-    background-image: url("memories/Images/thistle.png");
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center top;
-    opacity: 0.25;
+    height: 100%;
     z-index: -1;
+    opacity: 0.25;
+
+    background-image: 
+        url("your-image.jpg"),   /* left */
+        url("your-image.jpg");   /* right */
+
+    background-repeat: no-repeat, no-repeat;
+
+    background-size: 25%, 25%;   /* adjust size of each image */
+
+    background-position:
+        left center,   /* left side */
+        right center;  /* right side */
 }
 
 
