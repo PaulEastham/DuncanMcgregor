@@ -28,7 +28,7 @@ body::before {
     background-size: 25%, 25%;
 
     background-position:
-        left center;
+        left center,
         right center;
 }
 
