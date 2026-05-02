@@ -25,16 +25,16 @@ body::before {
     background-size: 12%, 12%;
 
     background-position:
-        left 135px,
-        right 135px;
+        left 140px,
+        right 140px;
 }
 
 @media (max-width: 600px) {
     body::before {
         background-size: 18%, 18%;
         background-position:
-            left 100px,
-            right 100px;
+            left 110px,
+            right 110px;
     }
 }
 
