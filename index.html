@@ -12,6 +12,8 @@
 <body>
 
 <img src="memories/Images/thistle.jpg" alt="thistle">
+
+<audio id="bg-music" src="AM.mp3" autoplay loop></audio>
     
 <div class="container">
     <h1>In Loving Memory of Duncan McGregor</h1>
@@ -211,5 +213,16 @@
 
 
 <script src="duncan.js"></script>
+
+<script>
+document.addEventListener("click", function() {
+    const audio = document.getElementById("bg-music");
+    if (audio) {
+        audio.play();
+    }
+}, { once: true });
+</script>
+
+
 </body>
 </html>
