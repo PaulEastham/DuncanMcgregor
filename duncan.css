@@ -25,8 +25,8 @@ body::before {
     background-size: 12%, 12%;
 
     background-position:
-        left 128px,
-        right 128px;
+        left 135px,
+        right 135px;
 }
 
 @media (max-width: 600px) {
