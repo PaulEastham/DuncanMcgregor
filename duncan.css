@@ -1,5 +1,5 @@
 body {
-    font-family: amaze, garamond;
+    
     background: #FF0000;
     color: #FFFFFF;
     margin: 0;
@@ -7,6 +7,7 @@ body {
 }
 
 .container {
+    font-family: garamond;
     max-width: 700px;
     margin: 0 auto;
     padding: 1.5rem;
@@ -64,6 +65,7 @@ h2 {
 }
 
 .message {
+    font-family: amaze;
     font-size: 1.3rem;
     font-style: italic;
     color: #FFFFFF;
