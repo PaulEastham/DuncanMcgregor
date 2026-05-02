@@ -4,8 +4,11 @@ body {
     color: #FFFFFF;
     margin: 0;
     text-align: center;
+    position: relative;
+    overflow-x: hidden;
 
 }
+
 
 
 
