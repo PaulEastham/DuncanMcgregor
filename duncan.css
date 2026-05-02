@@ -20,16 +20,16 @@ body::before {
     opacity: 0.25;
 
     background-image: 
-        url("your-image.jpg"),   /* left */
-        url("your-image.jpg");   /* right */
+        url("memories/Images/thistle.png"),
+        urlmemories/Images/thistle.png");
 
     background-repeat: no-repeat, no-repeat;
 
-    background-size: 25%, 25%;   /* adjust size of each image */
+    background-size: 25%, 25%;
 
     background-position:
-        left center,   /* left side */
-        right center;  /* right side */
+        left center,   /* left side
+        right center;  /* right side
 }
 
 
