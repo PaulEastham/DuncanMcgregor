@@ -22,22 +22,19 @@ body::before {
 
     background-repeat: no-repeat, no-repeat;
 
-    /* Smaller images */
-    background-size: 14%, 14%;
+    background-size: 12%, 12%;
 
-    /* Align with the heading */
     background-position:
-        left 85px,
-        right 85px;
+        left 128px,
+        right 128px;
 }
 
-/* Mobile alignment */
 @media (max-width: 600px) {
     body::before {
-        background-size: 20%, 20%;
+        background-size: 18%, 18%;
         background-position:
-            left 55px,
-            right 55px;
+            left 80px,
+            right 80px;
     }
 }
 
