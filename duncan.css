@@ -4,19 +4,14 @@ body {
     color: #FFFFFF;
     margin: 0;
     text-align: center;
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-  
-    background-image: url("memories/Images/thistle.png");
-    background-size: cover;
     background-position: center;
     opacity: 0.25;
     z-index: -1;
+    background-image: url("memories/Images/thistle.png");
+}
+
+
+
 
 .container {
     font-family: garamond;
