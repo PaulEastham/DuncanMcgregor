@@ -4,10 +4,7 @@ body {
     color: #FFFFFF;
     margin: 0;
     text-align: center;
-    background-position: center;
-    opacity: 0.25;
-    z-index: -1;
-    background-image: url("memories/Images/thistle.png");
+
 }
 
 
