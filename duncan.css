@@ -12,10 +12,7 @@ body {
 body::before {
     content: "";
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     z-index: -1;
     opacity: 0.25;
 
@@ -25,21 +22,22 @@ body::before {
 
     background-repeat: no-repeat, no-repeat;
 
-    
-    background-size: 12%, 12%;
+    /* Smaller images */
+    background-size: 14%, 14%;
 
-    
+    /* Align with the heading */
     background-position:
-        left 80px,
-        right 80px;
+        left 85px,
+        right 85px;
 }
 
+/* Mobile alignment */
 @media (max-width: 600px) {
     body::before {
-        background-size: 18%, 18%;
+        background-size: 20%, 20%;
         background-position:
-            left 40px,
-            right 40px;
+            left 55px,
+            right 55px;
     }
 }
 
