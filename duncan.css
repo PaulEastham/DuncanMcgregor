@@ -1,5 +1,5 @@
 body {
-    font-family: garamond;
+    font-family: garamond, sans-serif;
     background: #FF0000;
     color: #FFFFFF;
     margin: 0;
@@ -19,7 +19,6 @@ h1 {
 h2 {
     margin-bottom: 0.2rem;
     font-style: italic;
-    font: san-serif;
 }
 
 .dates {
