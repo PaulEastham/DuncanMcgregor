@@ -21,7 +21,7 @@ body::before {
 
     background-image: 
         url("memories/Images/thistle.png"),
-        urlmemories/Images/thistle.png");
+        url("memories/Images/thistle.png");
 
     background-repeat: no-repeat, no-repeat;
 
